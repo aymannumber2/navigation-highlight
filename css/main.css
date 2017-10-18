@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  padding: 1em;
+  border-radius: 4px;
+  background-color: grey;
+  opacity: 0.7;
+}
+
+header {
+  background-color: #ffe500;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Sigmar One', cursive;
+  color: #b20953;
+}
+
+a {
+  padding: 1em;
+  color: #fff;
+  font-family: Georgia;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #cc1465;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Sigmar One', cursive;
+  color: #b20953;
+}
